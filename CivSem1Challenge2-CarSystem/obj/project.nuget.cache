@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TcvdhUAZT513lasay3CZVHZrPFL2ONyVlZ6b1w3gUODBJlQ4g0RFmTDrX0UX2r/Q2oncBcVKdRujtiYpIV+X5A==",
+  "dgSpecHash": "Audo22I6rFh0jVF40vzs2ls9pMWNGAdXxNI1/jcSVaAHLN9IXAc8zEEw/FpIvmpLukZqez5cFGCTo0W2bHFdig==",
   "success": true,
-  "projectFilePath": "/Users/anguyen/Projects/CSharp/CivSem1Challenge2-CarSystem/CivSem1Challenge2-CarSystem.csproj",
+  "projectFilePath": "/Users/dionfinnerty/Documents/Swinburne/Programming/Challenge2/Challenge2-PRG/CivSem1Challenge2-CarSystem/CivSem1Challenge2-CarSystem.csproj",
   "expectedPackageFiles": [
-    "/Users/anguyen/.nuget/packages/csvhelper/27.1.1/csvhelper.27.1.1.nupkg.sha512"
+    "/Users/dionfinnerty/.nuget/packages/csvhelper/27.1.1/csvhelper.27.1.1.nupkg.sha512"
   ],
   "logs": []
 }

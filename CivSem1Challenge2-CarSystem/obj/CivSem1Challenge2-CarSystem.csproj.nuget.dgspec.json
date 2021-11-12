@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/anguyen/Projects/CSharp/CivSem1Challenge2-CarSystem/CivSem1Challenge2-CarSystem.csproj": {}
+    "/Users/dionfinnerty/Documents/Swinburne/Programming/Challenge2/Challenge2-PRG/CivSem1Challenge2-CarSystem/CivSem1Challenge2-CarSystem.csproj": {}
   },
   "projects": {
-    "/Users/anguyen/Projects/CSharp/CivSem1Challenge2-CarSystem/CivSem1Challenge2-CarSystem.csproj": {
+    "/Users/dionfinnerty/Documents/Swinburne/Programming/Challenge2/Challenge2-PRG/CivSem1Challenge2-CarSystem/CivSem1Challenge2-CarSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/anguyen/Projects/CSharp/CivSem1Challenge2-CarSystem/CivSem1Challenge2-CarSystem.csproj",
+        "projectUniqueName": "/Users/dionfinnerty/Documents/Swinburne/Programming/Challenge2/Challenge2-PRG/CivSem1Challenge2-CarSystem/CivSem1Challenge2-CarSystem.csproj",
         "projectName": "CivSem1Challenge2-CarSystem",
-        "projectPath": "/Users/anguyen/Projects/CSharp/CivSem1Challenge2-CarSystem/CivSem1Challenge2-CarSystem.csproj",
-        "packagesPath": "/Users/anguyen/.nuget/packages/",
-        "outputPath": "/Users/anguyen/Projects/CSharp/CivSem1Challenge2-CarSystem/obj/",
+        "projectPath": "/Users/dionfinnerty/Documents/Swinburne/Programming/Challenge2/Challenge2-PRG/CivSem1Challenge2-CarSystem/CivSem1Challenge2-CarSystem.csproj",
+        "packagesPath": "/Users/dionfinnerty/.nuget/packages/",
+        "outputPath": "/Users/dionfinnerty/Documents/Swinburne/Programming/Challenge2/Challenge2-PRG/CivSem1Challenge2-CarSystem/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/anguyen/.nuget/NuGet/NuGet.Config"
+          "/Users/dionfinnerty/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -61,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }

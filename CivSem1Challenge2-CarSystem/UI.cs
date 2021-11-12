@@ -44,6 +44,9 @@ namespace CivSem1Challenge2_CarSystem
                 case "1":
                     //TODO: from the attribute this.CarDealers, print the ids and Addresses of all of the car dealers
                     // use GetAddress() to do this
+                    foreach(var i in this.CarDealers){
+                        Console.WriteLine(i.DealerId + i.GetAddress() );
+                    }
 
                     //----------
                     break;
@@ -78,6 +81,7 @@ namespace CivSem1Challenge2_CarSystem
                 case "4":
                     //TODO: Print the amount of cars in the system
                     // Create and call a method/function named GetNumCars() to do this.
+                    System.Console.WriteLine(GetNumCars());
                     break;
 
                 case "5":
@@ -144,14 +148,21 @@ namespace CivSem1Challenge2_CarSystem
         }
 
         //TODO: complete for menu item 5.
+        //method names are wrong lmao 
         private int GetTotalCostCarDealers()
         {
-            return 0;
+            int count = 0;
+            foreach(var s in CarDealers){
+                count += s.Listings.Count;
+            }
+          return count;
         }
 
 
         //TODO: create the GetNumCars() method/function here
-
+        private int GetNumCars(){
+           return this.Cars.Count;
+        }
 
         //---------------------
 
@@ -159,6 +170,12 @@ namespace CivSem1Challenge2_CarSystem
         {
             //TODO: write code find the relevant car in this.Cars and return the car's details
             // should use the method GetDetails() from Car
+            foreach(var i in this.Cars){
+                if(i.Registration == rego){
+                    return i.GetDetails();
+                }
+            }
+
             return null;
         }
 
@@ -167,6 +184,11 @@ namespace CivSem1Challenge2_CarSystem
         {
             //TODO: write code find the relevant car dealer by DealerId in this.CarDealers and return the number of listings
             // if num doesn't exist in CarDealers, return -1
+          foreach(var s in this.CarDealers){
+              if(s.DealerId == num){
+                  return s.Listings.Count;
+              }
+          }
             return -1;
         }
 
@@ -206,12 +228,24 @@ namespace CivSem1Challenge2_CarSystem
             }
 
             //TODO: create and add the new car to the this.Cars list
-
+            var inputCar = new Listing(rego, make, model, yom, cost, price); 
+            this.Cars.Add(inputCar);
             System.Console.Write("Enter car dealer id to add the car to: ");
             while(!int.TryParse(Console.ReadLine(), out dealerId)) {
                 System.Console.WriteLine("Invalid, enter again");
             }
 
+            foreach(var c in CarDealers){
+                if(c.DealerId == dealerId){
+                    c.Listings.Add(inputCar);
+                }
+            }
+// Registration: ABC123
+// Make: Reliant
+// Model: Robin
+// Year of Manufacture: 1980
+// Cost: 15000
+// Price: 10000
 
 
             //TODO: add the car as a listing to the desired car dealer in this.CarDealers.  
